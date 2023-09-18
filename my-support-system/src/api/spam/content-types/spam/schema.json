@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "spams",
+  "info": {
+    "singularName": "spam",
+    "pluralName": "spams",
+    "displayName": "Spam",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Email": {
+      "type": "string"
+    },
+    "Subject": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "text"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

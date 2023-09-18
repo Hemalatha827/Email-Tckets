@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "waits",
+  "info": {
+    "singularName": "wait",
+    "pluralName": "waits",
+    "displayName": "Inbox",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Email": {
+      "type": "string"
+    },
+    "Subject": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "text"
+    }
+  }
+}

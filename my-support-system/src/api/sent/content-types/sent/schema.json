@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sents",
+  "info": {
+    "singularName": "sent",
+    "pluralName": "sents",
+    "displayName": "Sent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Email": {
+      "type": "string"
+    },
+    "Subject": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "text"
+    }
+  }
+}
